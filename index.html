@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb:top movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/imdb.png">
+  </head>
+
+  <body>
+  <div class="header__section">
+    <header>
+      <div class="header container">
+        <a href="#" class="header__logo">
+          <img src="https://imdb-movie-app.netlify.app/assets/image/logo-header.png" alt="">
+          <p class="header__desc">MovieBox</p>
+        </a>
+        <input class="header__input" type="search" placeholder="What do you want to watch?">
+        <div class="signin__section">
+          <a href="#" class="sign__in">Sign In</a>
+          <a href="#"><img class="header__burger" src="	https://imdb-movie-app.netlify.app/assets/image/burger.png" alt=""></a>
+        </div>
+      </div>
+    </header>
+    <div class="header__data container">
+      <div class="info">
+        <h1 class="info__title">John Wick 3 : <br> Parabellum</h1>
+        <div class="info__result">
+          <div class="result__inner">
+            <img src="	https://imdb-movie-app.netlify.app/assets/image/IMDB.png" alt="">
+            <p>
+              86.0 / 100
+            </p>
+          </div>
+          <div class="result__inner">
+            <img src="	https://imdb-movie-app.netlify.app/assets/image/tomato.png" alt="">
+            <p>
+              97%
+            </p>
+          </div>
+        </div>
+        <div>
+          <p class="info__desc">
+            John Wick is on the run after killing a member of the international assassins' guild, and with a
+            $14 million price tag on his head, he is the target of hit men and women everywhere.
+          </p>
+          <button class="info__btn">
+            <img class="btn__icon" src="https://imdb-movie-app.netlify.app/assets/image/icon-play.svg" alt="">
+            <p class="btn__desc">Watch trailer</p>
+          </button>
+        </div>
+      </div>
+      <div class="info"></div>
+    </div>
+  </div>
+
+
+
+
+    <div class="wrapper"></div>
+    <template class="movies-template">
+      <section class="main-cards container">
+        <div class="card">
+          <a href="/page">
+            <div class="div-image">
+              <img aria-colcount="card-image" src="	https://imdb-movie-app.netlify.app/assets/image/stranger-things.png"
+                alt="" class="card-image">
+            </div>
+            <div class="div-data">
+              <p class="card-desc">USA, 2016 - Current</p>
+              <h3 class="card-title">Stranger Things</h3>
+              <div class="card-rate">
+                <div class="card-inner">
+                  <img class="card-inner-img" src="https://imdb-movie-app.netlify.app/assets/image/IMDB.png" alt="">
+                  <p class="runtime">
+                    86.0 / 100
+                  </p>
+                </div>
+                <div class="card-inner">
+                  <img class="card-inner-img" src="https://imdb-movie-app.netlify.app/assets/image/tomato.png" alt="">
+                  <p class="precent">
+                    97%
+                  </p>
+                </div>
+              </div>
+              <p class="card-bottom">Action, Adventure, Horror</p>
+            </div>
+          </a>
+        </div>
+    </template>
+    </section>
+    <script src="./main.js" type="module"></script>
+  </body>
+
+</html>

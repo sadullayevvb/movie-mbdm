@@ -153,7 +153,7 @@
 }
 
 .card {
-  width: 250px;
+  width: 270px;
   max-height: 490px;
   margin-bottom: 50px;
   height: 100%;
@@ -165,7 +165,7 @@
 }
 
 .card-image{
- width: 250px;
+ width: 270px;
  height: 370px;
 }
 
@@ -173,7 +173,7 @@
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
-  width: 250px;
+  width: 270px;
   height: 370px;
   margin-bottom: 12px;
 }
